@@ -1,23 +1,47 @@
-p:hover{
-    color: goldenrod;
-    background-color: powderblue;
-}
-li:first-child{
-    color: green;
+img {
+    width: 60px;
 }
 li:hover{
-    background-color: red;
-    font-weight: 700;
-    font-size: larger;
-
+    color: red;
 }
-li{
+ul{
     background-color: powderblue;
+    width: 130px;
+    font-weight: 800;
+    font-size: 30px;
+}
+#sign-up{
+    color:black ;
+    font-size: 30px;
+    font-weight: 700;
 }
 input:focus{
-    font-weight: 700;
-    color: goldenrod;
+    color: red;
+    font-size: 20px;
 }
-ol{
-   color:red 
+table, th , td {
+    border: 1px solid black;
+    background-color: powderblue;
+    font-size: 20px;
+    color: red;
+}
+#youtube:visited{
+    color: red;
+}
+#youtube:hover{
+    color: black;
+}
+#pl{
+    background-color: forestgreen;
+    width: 340px;
+    font-size: 25px;
+    f
+}
+.box{
+    border:5px solid red;
+    border-radius: 10px;
+    float: left;
+    width: 200px;
+    padding: 30px;
+    margin: 30px;
 }
